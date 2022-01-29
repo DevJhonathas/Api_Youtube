@@ -5,7 +5,7 @@ class pesquisa_youtube:
     def __init__(self):
         self.conexao_youtube()
     def conexao_youtube(self):
-        self.youtubeApiKey = "AIzaSyA4P6EuvKFP4CCWAL3kdjL-DVwVyA93osk"
+        self.youtubeApiKey = "XXXXXXXXXXXXXX"
         self.youtube = build('youtube', 'v3', developerKey=self.youtubeApiKey)
 
         #Extraindo videos de uma Playlist
